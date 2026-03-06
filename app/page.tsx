@@ -40,6 +40,7 @@ export default function Home() {
             <h1>Transforme Seu Treino de CrossFit</h1>
             <p>Planilhas profissionais e personalizadas para atingir seus objetivos</p>
             <br></br>
+            
             <div className="hero-buttons" style={{ display: 'flex', gap: '16px' }}>
               <a href="#planos" className="btn btn-primary">Escolher Plano</a>
               <a href="#sobre" className="btn btn-secondary">Saiba Mais</a>
