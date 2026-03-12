@@ -39,7 +39,7 @@ export default function Home() {
           <div className="hero-content">
             <h1>Transforme Seu Treino de CrossFit</h1>
             <p>Planilhas profissionais e personalizadas para atingir seus objetivos</p>
-            <br></br>
+            <br />
             
             <div className="hero-buttons" style={{ display: 'flex', gap: '16px' }}>
               <a href="#planos" className="btn btn-primary">Escolher Plano</a>
@@ -86,6 +86,7 @@ export default function Home() {
         <div className="container">
           <h2>Nossos Planos</h2>
           <p className="section-desc">Escolha o plano que melhor se encaixa no seu estilo de vida</p>
+          <br/>
           <div className="pricing-container">
             {/* Plano RX */}
             <div className="pricing-card">
@@ -140,11 +141,12 @@ export default function Home() {
           </div>
           {/* Comparison Table */}
           <div className="comparison-section">
-            <h3>Comparação Detalhada</h3>
+            <h2>Comparação Detalhada</h2>
+            <br/>
             <div className="table-responsive">
               <table className="comparison-table">
                 <thead>
-                  <tr>
+                  <tr className="comparison-header">
                     <th>Características</th>
                     <th>RX</th>
                     <th>Elite</th>
@@ -212,7 +214,7 @@ export default function Home() {
                 <span className="contact-icon">📧</span>
                 <div>
                   <h4>Email</h4>
-                  <p><a href="mailto:contato@montatreinos.com">contato@montatreinos.com</a></p>
+                  <p><a href="mailto:contato@montatreinos.com">emanuel@montatreinos.com.br</a></p>
                 </div>
               </div>
               <div className="contact-item">
@@ -226,7 +228,7 @@ export default function Home() {
                 <span className="contact-icon">📍</span>
                 <div>
                   <h4>Localização</h4>
-                  <p>São Paulo, SP - Brasil</p>
+                  <p>Bento Gonçalves, RS - Brasil</p>
                 </div>
               </div>
             </div>
@@ -243,12 +245,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="footer">
         <div className="container">
-          <p>&copy; 2024 Treinos do EMA. Todos os direitos reservados.</p>
-          <div className="footer-links">
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Termos de Serviço</a>
-            <a href="#">Contato</a>
-          </div>
+          <p>&copy; 2026 Treinos do EMA. Todos os direitos reservados.</p>
         </div>
       </footer>
 
